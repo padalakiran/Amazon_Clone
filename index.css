@@ -1,0 +1,345 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+ .flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+} 
+/* .pro{
+    background-color:red;
+    height: 1.5px;
+    animation: width 3s linear   forwards;
+} */
+ /* @keyframes width {
+    0%{
+        width: 50%;
+    }
+    60%{
+        width: 70%;
+    }
+    80%{
+        width: 100%;
+    }
+    
+}  */ 
+/* nav bar1 starts */
+header{
+    background-color:black;
+}
+
+nav{
+    display: flex;
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    
+    justify-content: flex-start;
+    align-items: center;
+
+}
+nav ul li{
+    list-style: none;
+    /* display:inline-flex; */
+    /* align-items: center */
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-left: 12px;
+   
+    
+} 
+ul li a{
+    text-decoration: none;
+    padding: 20px 20px;
+    color: white; 
+    
+}
+li a:hover{
+    color: grey;
+    
+}
+ .active {
+     background-color: darkblue;
+   
+}
+
+.search{
+    position: relative;
+    left: -85px;
+    display: flex;
+    align-items: center;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    
+    
+    
+}
+.search input[type=text]{
+    padding: 7px;
+    width: 630px;
+}
+ .fsearch {
+     /* display: flex; */
+   position: relative;
+   left: -17px;
+    padding: 9px;
+    background: rgba(255, 166, 0, 0.973);
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    border-radius: 6px;
+    font-family: "Amazon Ember",Arial,sans-serif;
+  }
+  .fsearch:hover {
+    background-color: orange;
+  }
+  .drop{
+      position: relative;
+      left: -618px;
+      top:26px;
+     
+  }
+  
+   
+
+  .flag{
+    position: relative;
+    left: -620px;
+    top:26px;
+  }
+  .order{
+    display: flex;
+    align-items: center; 
+    text-align: center;
+    position: relative;
+    right: 780px;
+    top: 5px;
+    width: 100px;
+    height: 26px;
+    margin: 17px 26px 17px 400px;
+    border-radius: 6px;
+    background-color:black;
+    color:white;
+    font-size:medium;
+    border: black;
+    padding: 15px;
+    cursor: pointer;
+    font-family: "Amazon Ember",Arial,sans-serif;
+
+    
+  }
+ 
+  .order:hover{
+    border: 2px solid white;
+   
+}
+
+
+.cart{
+    display: flex;
+    align-items: center; 
+    text-align: center;
+    position: relative;
+    right: 1096px;
+    top: 5px;
+    width: 100px;
+    height: 26px;
+    margin: 17px 26px 17px 400px;
+    border-radius: 6px;
+    background-color:black;
+    color:white;
+    font-size:medium;
+    border: black;
+    padding: 15px;
+    cursor: pointer;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    
+  }
+  .cart:hover{
+    border: 2px solid white;
+   
+}
+#cart{
+    position: relative;
+    right: 700px;
+    width: 40px;
+    /* top: 5px; */
+    
+
+}
+
+  
+  
+
+
+.btn{
+    width: 60px;
+    height: 26px;
+    border-radius: 6px;
+    color: black;
+    cursor: pointer;
+    
+}
+.btn2{
+
+    display: flex;
+    align-items: center; 
+    text-align: center;
+    position: relative;
+    right: 332px;
+    top: 5px;
+    width: 125px;
+    height: 26px;
+    margin: 17px 26px 17px 400px;
+    border-radius: 6px;
+    color:white;
+    font-size: medium;
+    background-color:black;
+    border: black;
+    padding: 15px;
+    cursor: pointer;
+    
+}
+.btn2:hover{
+    border: 2px solid white;
+   
+}
+
+   
+
+
+
+.btn3{
+    display: flex;
+    align-items: center;
+    width: 65px;
+    height: 26px;
+    margin: 17px 100px 17px auto;
+    border-radius: 6px;
+    color: blue;
+    background-color: white;
+    padding: 12px;
+    cursor:pointer;
+}
+.search input{
+
+    width: 280px;
+    height: 25px;
+    border-radius: 5px;
+    margin: 0px 20px 0px 60px;
+    padding: 0px 12px;
+    color: black;
+}
+/* nav bar 1 ends */
+
+/* nav bar 2 */
+
+
+.nav2{
+    width: 1519px;
+    height: 50px;
+    background-color:rgba(0, 0, 0, 0.158);
+}
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font: medium;
+    color: rgba(0, 0, 0, 0.808);
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    background-color: gainsboro;
+    text-decoration: none;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  h4{
+      color:black;
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      
+      display: block;
+      transition: 0.3s;
+  }
+  
+  .openbtn {
+    position: relative;
+    left: -8px;
+    top: -15px;
+    font:medium;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+    border: 1px solid white;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+
+  /* nav bar2 end */
+
+ .container{
+ min-height: calc(100vh - 10vh - 90px);
+} 
+
+
+
+
+
+   
+footer{
+    background-color: black;
+    height: 10vh;
+    
+}
+footer a{
+   color: white;
+}
+/* added css */

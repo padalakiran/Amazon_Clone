@@ -1,0 +1,178 @@
+
+.content{
+  height: 400px;
+  width: 1467px;
+  position: relative;
+  left: 27px;
+  overflow: hidden;
+  box-shadow: 1px 1px 15px rgba(0,0,0,0.4);
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.content .images{
+  height: 100%;
+  width: 100%;
+}
+.images img{
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+
+/* .categories1{
+   position: relative;
+  /* left: 44px;
+  top: -215px;
+} */
+/* #i1{
+  position: relative;
+  left: 60px;
+  top:-220px ;
+} */
+/* .categories2{
+  position: relative;
+  left: 433px;
+  top: -560px;
+}  */
+/* #i2{
+  position: relative;
+  left: 445px;
+  top:-561px ;
+} */
+/* .categories3{
+  position: relative;
+  left: 813px;
+  top: -902px;
+} */
+/* #i3{
+  position: relative;
+  left: 829px;
+  top:-903px ;
+} */
+/* .categories4{
+  position: relative;
+  left: 1174px;
+  top: -1243px;
+} */
+/* #i4{
+  position: relative;
+  left: 1190px;
+  top:-1241px ;
+} */
+
+.car{
+    max-width: 91vw;
+    margin: 20px 40px ;
+    
+}
+.cards{
+  display: flex;
+  overflow-x: scroll;
+  
+}
+.card-item {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px 55px;
+  cursor: pointer;
+}
+.lines p{
+   display: flex;
+   justify-content: center;
+   
+}
+
+/* back to top button css */
+#myBtn{
+     width: 100%;
+     background-color: #007185;
+     height: 40px;
+     color: white;
+     cursor: pointer;
+}
+#myBtn:hover{
+  background-color:gray;
+}
+.navFooterColHead{
+  color: white;
+  display: inline-block;
+}
+
+.row{
+  
+  display: flex;
+  justify-self: flex-start;
+  padding:40px 348px;
+  background-color: #0F1111;
+ 
+  
+}
+.column ul li{
+ list-style: none;
+
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "Amazon Ember",Arial,sans-serif;
+  
+}
+ul li a{
+  color:rgba(255, 255, 255, 0.733) ;
+}
+h4{
+  color: white;
+  position: relative;
+  left: -13px;
+  font-size: 18px;
+  line-height: 20px;
+  font-family: "Amazon Ember",Arial,sans-serif;
+}
+ a:hover{
+  text-decoration:underline ;
+}
+
+p a{
+  text-decoration: none;
+}
+
